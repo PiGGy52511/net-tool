@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"github.com/google/gopacket/pcap"
+	"github.com/google/gopacket/tree/master/pcap"
 	"log"
 	"net"
 	"net-tool/public/packet"

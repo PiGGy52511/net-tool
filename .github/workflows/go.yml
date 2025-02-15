@@ -23,8 +23,7 @@ jobs:
         
     - name: Pcap
       run: |
-        go get github.com/google/gopacket/pcap
-        make pcap
+        go mod download
 
     - name: Build
       run: go build -v ./...

@@ -23,7 +23,7 @@ jobs:
     - name: Lint
       run: |
         go get github.com/google/gopacket/pcap
-        make lint
+        make sys
 
     - name: Build
       run: go build -v ./...
